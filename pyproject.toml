@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "zhaohangch-mlopsarch_jd229"
+name = "zhaohangch-moe_route_imbalance_length_profile"
 version = "0.1.0"
 description = "按段落统计MLOps 平台架构师·MoE 路由的负载不均相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://zhaohangch.github.io"
-Repository = "https://github.com/zhaohangch/mlopsarch_jd229"
-Issues = "https://github.com/zhaohangch/mlopsarch_jd229/issues"
+Repository = "https://github.com/zhaohangch/moe_route_imbalance_length_profile"
+Issues = "https://github.com/zhaohangch/moe_route_imbalance_length_profile/issues"
 
 [project.scripts]
-mlopsarch_jd229 = "mlopsarch_jd229:main"
+moe_route_imbalance_length_profile = "moe_route_imbalance_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["mlopsarch_jd229"]
+py-modules = ["moe_route_imbalance_length_profile"]
